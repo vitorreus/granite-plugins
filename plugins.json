@@ -1,0 +1,15 @@
+{
+  "format": "granite-plugin-registry",
+  "version": 1,
+  "plugins": [
+    {
+      "id": "personagens",
+      "name": "Personagens",
+      "description": "Fichas de personagem para histórias: aparência, imagens de referência, personalidade, história, relações e aparições, em arquivos .character.",
+      "author": "vitorreus",
+      "repo": "https://github.com/vitorreus/granite-personagens.git",
+      "branch": "main",
+      "minApiVersion": 1
+    }
+  ]
+}
