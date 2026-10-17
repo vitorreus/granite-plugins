@@ -7,7 +7,7 @@
       "name": "Personagens",
       "description": "Fichas de personagem para histórias: aparência, imagens de referência, personalidade, história, relações e aparições, em arquivos .character.",
       "author": "vitorreus",
-      "repo": "https://github.com/vitorreus/granite-personagens.git",
+      "repo": "https://github.com/vitorreus/granite-personagens-dist.git",
       "branch": "main",
       "minApiVersion": 1
     }

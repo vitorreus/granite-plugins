@@ -23,7 +23,7 @@ O Granite lê [`plugins.json`](plugins.json) por HTTPS (`https://raw.githubuserc
 }
 ```
 - `id`: igual ao `id` do `granite-plugin.json` do plugin (`[a-z0-9-]+`) e ao nome da pasta de instalação.
-- `repo`: URL HTTPS clonável; o repositório deve conter na raiz o `granite-plugin.json` e o JS já compilado.
+- `repo`: URL HTTPS clonável e **pública** de um repositório de distribuição, que contém na raiz só o necessário para rodar: `granite-plugin.json`, o JS já compilado (`main`) e os estilos. O código-fonte do plugin pode ficar em outro repositório (privado ou não).
 - `minApiVersion`: versão mínima da API de plugins do Granite.
 
 ## Sugerir um plugin
